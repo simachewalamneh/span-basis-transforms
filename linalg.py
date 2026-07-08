@@ -117,13 +117,17 @@ def rref(A):
                 break
         if pivot is None:
             continue
+       #swape two rows
         M[pivot_row], M[pivot] = M[pivot], M[pivot_row]
+       #multiply row with none zeno costant
         piv_val = M[pivot_row][col]
         M[pivot_row] = [x / piv_val for x in M[pivot_row]]
+       #add/substract one row with multiple of another row 
         for r in range(rows):
             if r != pivot_row and M[r][col] != 0:
                 factor = M[r][col]
                 M[r] = [a - factor * b for a, b in zip(M[r], M[pivot_row])]
+        #advancing
         pivot_row += 1
         if pivot_row == rows:
             break

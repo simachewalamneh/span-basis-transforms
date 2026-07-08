@@ -7,6 +7,13 @@ algebra packages of any kind. Every matrix operation, determinant, rank
 computation, and transformation is implemented by hand so interns see the
 mechanics, not just a library call.
 
+## Summary Document
+
+**Applied Linear Algebra Task Accomplishment**
+Approach & Implementation Summary — Span, Basis, and Linear Transformations
+
+📄 [View the full write-up (Google Docs)](https://docs.google.com/document/d/13TJB3aghU3XkdgnYtHwRTWDwi6jbblgE/edit?usp=sharing&ouid=110230718087497543028&rtpof=true&sd=true)
+
 ## Structure
 
 ```
